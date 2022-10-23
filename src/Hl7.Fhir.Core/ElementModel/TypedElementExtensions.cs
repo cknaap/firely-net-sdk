@@ -14,5 +14,8 @@ namespace Hl7.Fhir.ElementModel
     {
         public static ITypedElement ToTypedElement(this Base @base, string rootName = null) =>
             new PocoElementNode(ModelInfo.ModelInspector, @base, rootName: rootName);
+
+        public static ITypedElement ToDictionaryTypedElement(this Base @base, string rootName = null) =>
+            new DictionaryElementNode(ModelInfo.ModelInspector, @base, rootName: rootName);
     }
 }
