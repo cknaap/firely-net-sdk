@@ -44,6 +44,9 @@ working/
 *.log
 *.scc
 
+# Benchmark.net results
+**/BenchmarkDotNet.Artifacts
+
 # Visual C++ cache files
 ipch/
 *.aps
