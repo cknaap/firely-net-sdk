@@ -32,8 +32,8 @@ namespace Firely.Sdk.Benchmarks
             var testClass = new FhirPathBenchmarks();
             testClass.BenchmarkSetup();
             //testClass.PocoElementNode();
-            //testClass.DictionaryElementNode();
-            testClass.PocoFunctions();
+            testClass.DictionaryElementNode();
+            //testClass.PocoFunctions();
         }
 
         [GlobalSetup]
